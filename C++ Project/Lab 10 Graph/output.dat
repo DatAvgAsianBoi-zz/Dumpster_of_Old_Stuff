@@ -1,0 +1,38 @@
+digraph G {
+	Micky_Mouse[label="Micky_Mouse
+Distance:0"]
+	Parah_Salin[label="Parah_Salin
+Distance:2147483647"]
+	Joe_the_Plumber[label="Joe_the_Plumber
+Distance:2147483647"]
+	Wille_E_Coyote[label="Wille_E_Coyote
+Distance:1"]
+	Tilla_Tequila[label="Tilla_Tequila
+Distance:2147483647"]
+	Kim_Jong_Il[label="Kim_Jong_Il
+Distance:2147483647"]
+	Scoobie_Doo[label="Scoobie_Doo
+Distance:1"]
+	Hugo_Chavez[label="Hugo_Chavez
+Distance:2147483647"]
+	Micky_Mouse->Wille_E_Coyote
+	Micky_Mouse->Scoobie_Doo
+	Parah_Salin->Joe_the_Plumber
+	Parah_Salin->Micky_Mouse
+	Parah_Salin->Kim_Jong_Il
+	Parah_Salin->Hugo_Chavez
+	Joe_the_Plumber->Parah_Salin
+	Joe_the_Plumber->Wille_E_Coyote
+	Joe_the_Plumber->Tilla_Tequila
+	Wille_E_Coyote->Micky_Mouse
+	Tilla_Tequila->Parah_Salin
+	Tilla_Tequila->Joe_the_Plumber
+	Tilla_Tequila->Scoobie_Doo
+	Kim_Jong_Il->Micky_Mouse
+	Kim_Jong_Il->Tilla_Tequila
+	Kim_Jong_Il->Joe_the_Plumber
+	Scoobie_Doo->Wille_E_Coyote
+	Hugo_Chavez->Parah_Salin
+	Hugo_Chavez->Micky_Mouse
+	Hugo_Chavez->Scoobie_Doo
+}
